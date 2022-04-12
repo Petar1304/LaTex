@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\title{Slike u LaTeXu}
+\author{Petar Kovacevic}
+
+\usepackage{graphicx} % package za unosenje slike
+
+\begin{document}
+
+\maketitle
+
+Ovde cemo ubaciti jednu sliku, \ref{slika:sinus}.
+
+\begin{figure}[h!] % h here, b bottom, t top 
+	\centering
+	\includegraphics[scale=0.4]{sin.png}
+
+	\caption{Funkcija $\sin \left( x \right)$}
+	\label{slika:sinus}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.3]{sin.png}
+	\caption{Funkcija $\sin (x)$}
+	\label{slika:sin2}
+\end{figure}
+ 
+\begin{table}[h!]
+	\centering
+	\caption{Primer jedne tabele}
+	\bigskip
+	\begin{tabular}{|c|c|c|} % c center, l left, r right
+		\hline
+		a & b & \phantom{xxx} \\
+		\hline
+		d & e & f \\
+		\hline
+		g & h & i \\ 
+		\hline
+	\end{tabular}
+	\label{tabela:ime}
+\end{table}
+
+
+\end{document}

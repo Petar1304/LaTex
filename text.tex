@@ -1,0 +1,100 @@
+\documentclass{article}
+
+\author{Petar Kovacevic}
+\title{Praktikum iz softverskih alata u elektronici}
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\bigskip
+
+Proba za \LaTeX...
+
+Novi red...
+
+Novi red za dva reda...
+
+\section{C++}
+\begin{verbatim}
+#include <iostream>
+int main() {
+	std::cout << "Hello World" << std::endl;
+}
+
+\end{verbatim}
+
+\section{Java}
+\begin{verbatim}
+package test;
+
+public class Test{
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+\end{verbatim}
+
+Liste:
+\begin{itemize}
+	\item prva tacka
+	\item druga tacka
+	\item treca tacka
+\end{itemize}
+
+Numerisana lista:
+\begin{enumerate}
+	\item prvi red
+	\item drugi red
+	\item treci red
+\end{enumerate}
+
+\section{Velicina slova}
+\Huge Slova\\
+\huge Slova\\
+\LARGE Slova\\
+\Large Slova\\
+\large Slova\\
+\normalsize Slova\\
+\small Slova\\
+\footnotesize Slova\\
+\tiny Slova
+\normalsize
+
+TopLeft \hfill TopRight
+\vfill
+BottomLeft \hfill BottomRight
+
+\section{Tabela:}
+\begin{tabular} {|l|l|c|} % l->left c->center
+\hline
+		1 & 2 & 4 \\
+		\hline
+		5 & 6 & 7 \\
+		\hline 
+		8 & 9 & 10 \\
+		\hline
+
+\end{tabular}
+
+Struktura dokumenta za tip article:
+\section{Section}
+\subsection{SubSection}
+\subsubsection{SubSubSection}
+\paragraph{Paragraph}
+\subparagraph{SubParagraph}
+
+
+\section*{Section bez broja}
+
+\begin{description}
+	\item[Prva rec] je prva rec
+	\item[Druga rec] druga rec
+	\item[Treca rec] third word
+\end{description}
+
+\end{document}
